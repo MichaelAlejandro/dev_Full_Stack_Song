@@ -13,3 +13,19 @@ Requisitos
 Antes de comenzar, asegúrate de tener lo siguiente instalado:
 -Node.js 
 -MongoDB 
+
+Instrucciones para iniciar el servidor localmente
+1. Clonar el repositorio
+Primero, clona este repositorio en tu máquina local:
+git clone https://github.com/MichaelAlejandro/dev_Full_Stack_Song.git
+2. Instalación de dependencias
+Navega al directorio del proyecto y ejecuta el siguiente comando para instalar las dependencias necesarias:
+cd .\dev_Full_Stack_Song\server\
+npm install
+3. Base de datos MongoDB
+Inicia la conexion para la base de datos en mogodb en localhost:27017
+4. Arranca el Servidor
+En el directorio server, ejecuta el siguiente comando para arrancar el servidor:
+node server.js
+5. Entra en el link
+El link normalmente se muestra al momento de arrancar el servidor
