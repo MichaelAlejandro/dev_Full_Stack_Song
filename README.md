@@ -11,8 +11,8 @@ Ver lista de canciones: Las canciones guardadas se muestran en una lista con sus
 
 ## Requisitos
 Antes de comenzar, asegúrate de tener lo siguiente instalado:
--Node.js 
--MongoDB 
+- Node.js 
+- MongoDB 
 
 ## Instrucciones para iniciar el servidor localmente
 1. Clonar el repositorio
