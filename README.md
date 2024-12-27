@@ -1,4 +1,4 @@
-# dev_Full_Stack_Song
+# Tarea Desarrollo Full Stack
 Este proyecto es una aplicación web para gestionar canciones, que permite agregar canciones, votar por ellas y obtener una canción aleatoria. 
 La aplicación utiliza Node.js, Express y MongoDB para el backend y un frontend en HTML, CSS y JavaScript.
 
