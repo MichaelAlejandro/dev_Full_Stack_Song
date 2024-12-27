@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #03978b;
+    color: #2e7d32;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(46, 125, 50, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #2e7d32;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #81c784;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #2e7d32;
+}
+
+.error {
+    color: #d32f2f;
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: none;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #2e7d32;
+    transform: translateY(-2px);
+}
+
+#cancionAleatoria {
+    background-color: #66bb6a;
+}
+
+#cancionAleatoria:hover {
+    background-color: #43a047;
+}
+
+#listaCanciones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.song-card {
+    border: 2px solid #a5d6a7;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.song-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(46, 125, 50, 0.15);
+}
+
+.vote-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.vote-button {
+    background-color: #66bb6a;
+    padding: 8px 16px;
+}
+
+.votes-count {
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.video-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 2px solid #2e7d32;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.video-link:hover {
+    background-color: #2e7d32;
+    color: white;
+}
